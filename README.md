@@ -2,7 +2,7 @@
 
 ## Article
 
-This is an example application for [Migrating Angular 1 Applications to Angular 2 in 5 Simple Steps]
+This is an example application for Migrating Angular 1 Applications to Angular 2 and has been heavily influenced by [Victor Savkin's migration article]
 (https://vsavkin.com/migrating-angular-1-applications-to-angular-2-in-5-simple-steps-40621800a25b#.oj2pbb5de)
 
 The application shows how to migrate an Angular 1 app to Angular 2 using the Angular 2 router. It uses WebPack 2.0 and AoT compilation.
@@ -16,7 +16,7 @@ The application shows how to migrate an Angular 1 app to Angular 2 using the Ang
 
 - optionally `npm run build` to build bundle
 
-## Applicaiton
+## Application
 
 ### Modules
 
@@ -28,11 +28,11 @@ The application has three modules:
 
 They illustrate the three stages of migrating modules from Angular 1 to Angular 2.
 
-* The Main Menu moduule is written in Angular 1. In other words, the migration of this module hasn't started yet.
+* The Main Menu moduue is written in Angular 1. In other words, the migration of this module hasn't started yet.
 * The Messages module is written using Angular 1, but one of its components has been migrated to Angular 2.
-* The Settings module is written using Angular 1. In other words, the migration of this module has been completed.
+* The Settings module is written using Angular 2. In other words, the migration of this module has been completed.
 
-Every module defintes components, services, and routes. In addition every module has an NgModule with a static methods where we can downgrade/upgrade, components and services.
+Every module defines components, services, and routes. In addition every module has an NgModule with a static methods where we can downgrade/upgrade, components and services.
 
 
 ### Routes
