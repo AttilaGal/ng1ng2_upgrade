@@ -10,7 +10,6 @@ import {UpgradeModule} from '@angular/upgrade/static';
 
 // import app modules
 import {MessagesNgModule} from './messages';
-import {MenuNgModule} from './menu';
 import {SettingsNgModule} from './settings';
 
 // This URL handling strategy is custom and application-specific.
@@ -36,7 +35,6 @@ export class RootCmp {}
     UpgradeModule,
 
     // import all modules
-    MenuNgModule,
     MessagesNgModule,
     SettingsNgModule,
 
