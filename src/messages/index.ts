@@ -1,4 +1,4 @@
-// This module is in the midst of transitiong from Angular 1 to Angular 2.
+// This module is in the midst of transitioning from Angular 1 to Angular 2.
 // We migrated MessageTextCmp to Angular2.
 import * as angular from 'angular';
 import {NgModule} from '@angular/core';

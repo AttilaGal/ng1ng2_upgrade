@@ -41,10 +41,10 @@ export class RootCmp {}
     SettingsNgModule,
 
     // We don't need to provide any routes.
-    // The router will collect all routes from all the registerd modules.
+    // The router will collect all routes from all the registered modules.
     RouterModule.forRoot([], {
       useHash: true,
-      initialNavigation: false // we went to trigger navigation outselves after ng1 is done bootstrapping
+      initialNavigation: false // we went to trigger navigation ourselves after ng1 is done bootstrapping
     }),
   ],
   providers: [
